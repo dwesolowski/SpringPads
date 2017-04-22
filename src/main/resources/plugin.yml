@@ -1,0 +1,20 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+
+main: ${mainClass}
+
+commands:
+  springpads:
+    usage: |
+      /<command> create : Places a pad at current location.
+      /<command> reload : Reloads the configuration file.
+    description: "/<springpads> <command>"
+    permission: springpads.admin
+
+permissions:
+  springpads.admin:
+    description: "Gives access to all SpringPads commands."
+    default: op

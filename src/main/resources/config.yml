@@ -1,0 +1,17 @@
+Settings:
+  Pad_Block: GOLD_BLOCK
+  # GOLD_PLATE, IRON_PLATE, STONE_PLATE, WOOD_PLATE
+  Pad_Type: GOLD_PLATE
+  Power: 3
+  # Valid Effects https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+  Effect: ENDER_SIGNAL
+  # Valid Sounds https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  Sound: BLOCK_PISTON_EXTEND
+# General Messages
+Messages:
+  # --- Player - Color codes may be used --- #
+  PadCreated: '&7New pad created here!'
+  NoPermissions: '&eYou do not have permission to execute this command!'
+DisabledWorlds:
+- world1
+- World2
