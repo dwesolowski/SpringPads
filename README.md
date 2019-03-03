@@ -4,7 +4,7 @@
 
 A simple plugin to launch players in the air towards their target direction.
 
-#### Supported Versions: 1.11+, backwards compatibility is not guaranteed.
+#### Supported Versions: 1.13+, backwards compatibility is not guaranteed.
 
 ## Commands:
 - /springpads create : Places a pad at current location.
