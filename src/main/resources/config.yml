@@ -1,7 +1,7 @@
 Settings:
   Pad_Block: GOLD_BLOCK
-  # GOLD_PLATE, IRON_PLATE, STONE_PLATE, WOOD_PLATE
-  Pad_Type: GOLD_PLATE
+  # Valid Pad Types https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  Pad_Type: LIGHT_WEIGHTED_PRESSURE_PLATE
   Power: 3
   # Valid Effects https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
   Effect: ENDER_SIGNAL
