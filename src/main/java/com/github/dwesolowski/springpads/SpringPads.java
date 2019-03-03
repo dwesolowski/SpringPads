@@ -20,6 +20,7 @@ public final class SpringPads extends JavaPlugin {
         registerCommands();
         registerListeners();
         saveDefaultConfig();
+        registerMetrics();
     }
 
     @Override
@@ -34,5 +35,9 @@ public final class SpringPads extends JavaPlugin {
     private void registerListeners() {
         getServer().getPluginManager().registerEvents(new PlayerMoveEvent(this), this);
         getServer().getPluginManager().registerEvents(new EntityDamageEvent(this), this);
+    }
+
+    private void registerMetrics() {
+        final MetricsLite metrics = new MetricsLite(this);
     }
 }

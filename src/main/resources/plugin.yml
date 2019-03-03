@@ -1,10 +1,7 @@
-name: ${name}
+name: SpringPads
 version: ${version}
-description: ${description}
-author: ${author}
-website: ${url}
-
-main: ${mainClass}
+main: com.github.dwesolowski.springpads.SpringPads
+api-version: 1.13
 
 commands:
   springpads:
